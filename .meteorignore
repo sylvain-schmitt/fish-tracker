@@ -1,0 +1,7 @@
+# Ignorer les changements dans le dossier des uploads
+# pour éviter les rechargements automatiques
+uploads/
+*.jpeg
+*.jpg
+*.png
+*.webp 

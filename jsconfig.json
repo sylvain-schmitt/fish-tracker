@@ -1,0 +1,82 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/local_collection_driver.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/collection/collection.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/asynchronous_cursor.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/doc_fetcher.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/mongo_common.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/mongo_connection.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/mongo_driver.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/mongo_utils.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/oplog_observe_driver.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/collection/collection_utils.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/collection/methods_async.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/collection/methods_index.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/collection/methods_replication.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/collection/methods_sync.js",
+        "/home/ogan/.meteor/packages/mongo/2.1.2/web.browser/collection/watch_change_stream.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/ogan/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/ogan/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/home/ogan/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/home/ogan/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/home/ogan/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/home/ogan/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/ogan/.meteor/packages/ecmascript/0.16.11/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/ogan/.meteor/packages/shell-server/0.6.1/web.browser/main.js",
+        "/home/ogan/.meteor/packages/shell-server/0.6.1/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/ogan/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/home/ogan/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/home/ogan/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/home/ogan/.meteor/packages/react-meteor-data/4.0.0/web.browser/suspense/index.js"
+      ],
+      "meteor/accounts-password": [
+        "/home/ogan/.meteor/packages/accounts-password/3.2.0/web.browser/password_client.js",
+        "/home/ogan/.meteor/packages/accounts-password/3.2.0/web.browser/email_templates.js",
+        "/home/ogan/.meteor/packages/accounts-password/3.2.0/web.browser/password_server.js"
+      ],
+      "meteor/jquery": [
+        "/home/ogan/.meteor/packages/jquery/3.0.2/web.browser/main.js"
+      ],
+      "meteor/accounts-base": [
+        "/home/ogan/.meteor/packages/accounts-base/3.1.1/web.browser/client_main.js",
+        "/home/ogan/.meteor/packages/accounts-base/3.1.1/web.browser/accounts_client.js",
+        "/home/ogan/.meteor/packages/accounts-base/3.1.1/web.browser/accounts_common.js",
+        "/home/ogan/.meteor/packages/accounts-base/3.1.1/web.browser/accounts_server.js",
+        "/home/ogan/.meteor/packages/accounts-base/3.1.1/web.browser/server_main.js"
+      ],
+      "meteor/email": [
+        "/home/ogan/.meteor/packages/email/3.1.2/web.browser/email.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles personnalisés pour les Select */
+[data-radix-select-content] {
+    background-color: white !important;
+    border: 1px solid #d1d5db !important;
+}
+
+[data-radix-select-item] {
+    background-color: white !important;
+    color: #111827 !important;
+    cursor: pointer !important;
+}
+
+[data-radix-select-item]:hover,
+[data-radix-select-item][data-highlighted] {
+    background-color: #f3f4f6 !important;
+}
+
+[data-radix-select-item][data-state="checked"] {
+    background-color: #dbeafe !important;
+    color: #1e3a8a !important;
+}
