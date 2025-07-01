@@ -1,5 +1,8 @@
 node_modules/
 .cursor
+.meteor/local
 
 # Dossier des images uploadées
 uploads/
+.DS_Store
+settings.json

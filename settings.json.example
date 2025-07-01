@@ -1,0 +1,28 @@
+{
+    "galaxy.meteor.com": {
+        "env": {
+            "MAIL_URL": "smtp://YOUR_BREVO_LOGIN:YOUR_BREVO_API_KEY@smtp-relay.brevo.com:587",
+            "ROOT_URL": "https://your-app.meteorapp.com",
+            "MONGO_URL": "mongodb+srv://username:password@cluster.mongodb.net/database?retryWrites=true&w=majority&appName=your-app"
+        }
+    },
+    "development": {
+        "env": {
+            "ROOT_URL": "http://localhost:3000",
+            "MAIL_URL": "smtp://YOUR_BREVO_LOGIN:YOUR_BREVO_API_KEY@smtp-relay.brevo.com:587"
+        }
+    },
+    "public": {
+        "appName": "Fish Tracker",
+        "supportEmail": "noreply@your-domain.com",
+        "uploadConfig": {
+            "maxFileSize": 5242880,
+            "allowedTypes": [
+                "image/jpeg",
+                "image/png",
+                "image/webp"
+            ],
+            "uploadPath": "/uploads/fish-images/"
+        }
+    }
+} 
